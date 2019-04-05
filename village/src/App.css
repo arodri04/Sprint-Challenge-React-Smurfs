@@ -1,7 +1,17 @@
 .App {
   text-align: center;
+  background-image: url("./Smurf.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  min-height: 1000px;
 }
-
+.Smurf {
+  background: lightblue;
+  border: 1px solid black;
+  border-radius: 20px;
+  margin: 20px auto;
+  width: 30%;
+}
 nav {
   margin: 20px;
 }
