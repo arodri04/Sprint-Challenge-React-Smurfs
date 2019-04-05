@@ -23,7 +23,6 @@ class App extends Component {
       });
   }
   ExileSmurf = (id, e) => {
-    e.preventDefault();
     axios
       .delete(`http://localhost:3333/smurfs/${id}`)
       .then(res => {
