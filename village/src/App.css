@@ -1,3 +1,11 @@
 .App {
   text-align: center;
 }
+
+nav {
+  margin: 20px;
+}
+
+nav a {
+  margin-left: 20px;
+}
